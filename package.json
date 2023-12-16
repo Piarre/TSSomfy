@@ -1,0 +1,26 @@
+{
+  "name": "ts-somfy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsup",
+    "clear": "rm -rf out/",
+    "start": "tsc && node .",
+    "start:clean": "rm -rf out && tsc && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
